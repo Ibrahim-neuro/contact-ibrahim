@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Ibrahim</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+            transition: background-color 0.3s ease;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        section {
+            padding: 20px 0;
+            border-bottom: 1px solid #ccc;
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.6s ease, transform 0.6s ease;
+        }
+        section.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .grey-bg {
+            background-color: #ecf0f1;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .accordion-btn {
+            background-color: #f1f1f1;
+            color: #333;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            text-align: left;
+            border: none;
+            outline: none;
+            transition: background-color 0.6s ease;
+        }
+        .panel {
+            display: none;
+            padding: 0 18px;
+            background-color: white;
+            overflow: hidden;
+        }
+        .social-media {
+            margin-top: 10px;
+        }
+        .social-media a {
+            display: inline-block;
+            margin-right: 10px;
+            color: #333;
+            text-decoration: none;
+        }
+        .share-buttons {
+            margin-top: 20px;
+        }
+        .share-buttons a {
+            display: inline-block;
+            margin-right: 10px;
+            background-color: #007bff;
+            color: white;
+            padding: 8px 12px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        .share-buttons a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Contact Ibrahim</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#goals">My Goals</a></li>
+                <li><a href="#inspiration">Inspiration</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="about" class="grey-bg">
+            <h2>About Me</h2>
+            <p>Hi, I'm Muhammad Ibrahim Shahid, a first-year college student pursuing my passion for medicine in the pre-medical program. My dream is to become a neurosurgeon, driven by a desire to understand the intricacies of the human brain and improve lives through cutting-edge medical techniques.</p>
+        </section>
+
+        <section id="goals">
+            <h2>My Goals</h2>
+            <div class="accordion">
+                <button class="accordion-btn">Excel in my pre-med studies</button>
+                <div class="panel">
+                    <p>Building a strong foundation in sciences and mathematics is crucial for my future career in neurosurgery.</p>
+                </div>
+
+                <button class="accordion-btn">Gain valuable research and clinical experience</button>
+                <div class="panel">
+                    <p>I aim to participate in research projects and gain hands-on experience in neurosurgical procedures.</p>
+                </div>
+
+                <button class="accordion-btn">Attend medical school and specialize in neurosurgery</button>
+                <div class="panel">
+                    <p>My ultimate goal is to pursue further education and training to become a skilled neurosurgeon.</p>
+                </div>
+
+                <button class="accordion-btn">Stay updated with the latest advancements</button>
+                <div class="panel">
+                    <p>Continuously learning and contributing to the field of neurosurgery through innovative research and practices.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="inspiration" class="grey-bg">
+            <h2>Inspiration</h2>
+            <p>I am motivated by the impact neurosurgeons have on patients' lives, from relieving chronic pain to restoring function and hope. I aim to make a difference in my community and beyond, one patient at a time.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>You can reach me at <a href="mailto:muhammad.ibrahim.x7777@gmail.com">muhammad.ibrahim.x7777@gmail.com</a> or through the contact form below.</p>
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </div>
+
+    <div class="social-media">
+        <a href="https://www.facebook.com/M.IbrahimShahid" target="_blank">Facebook</a>
+        <a href="https://www.instagram.com/muhammad_ibrahim.7" target="_blank">Instagram</a>
+        <a href="https://www.snapchat.com/add/ibrahim15987_xd" target="_blank">Snapchat</a>
+    </div>
+
+    <div class="share-buttons">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fyourwebsite.com" target="_blank">Share on Facebook</a>
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fyourwebsite.com&text=Check%20out%20Contact%20Ibrahim%20-%20a%20website%20by%20Muhammad%20Ibrahim%20Shahid" target="_blank">Share on Twitter</a>
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fyourwebsite.com&title=Contact%20Ibrahim&summary=Learn%20more%20about%20Muhammad%20Ibrahim%20Shahid%20and%20his%20aspirations%20to%20become%20a%20neurosurgeon" target="_blank">Share on LinkedIn</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Ibrahim. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var sections = document.querySelectorAll("section");
+            var options = {
+                rootMargin: "-50px 0px -50px 0px"
+            };
+
+            var observer = new IntersectionObserver(function(entries, observer) {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add("active");
+                    }
+                });
+            }, options);
+
+            sections.forEach(section => {
+                observer.observe(section);
+            });
+        });
+    </script>
+
+</body>
+</html>
